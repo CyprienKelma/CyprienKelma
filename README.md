@@ -28,14 +28,14 @@ While I advocate for using the right tech for the right task (_rather than choos
 - Airflow and Prefect for batch pipeline orchestration
 - Relationnal Databases (PostgreSQL, SQLite) and NoSQL (MongoDB, Cassandra, Redis)
 - Java (and Spring Boot for Backend)
-- Delta Lake and Databricks, on which I'm currently working to pass the Data Engineer Professional Certification this year
+- Databricks and Delta Lake, on which I'm currently working to pass the Data Engineer Professional Certification this year
 - DevOps/DataOps Concepts and CI/CD with GitHub Action, especially to manage artifact publication and project deployment on dev/preprod/prod environments 
 - Docker and Kubernetes (on premise or with Cloud services)
 - IaC and Backend State with Terraform
 
 #### Cloud Computing :
 
-I love working with Cloud solution 🙂. And even if I believe more in deep understanding of concepts rather than simple tool use, I have a personal preference building Cloud System with products from the Google Cloud Platform​​. Especially those : BigQuery, Cloud Storage, Cloud Runner, GKE, Cloud Run, Dataform, and DataFlow.
+I love working with Cloud solution 🙂. And even if I believe more in deep understanding of concepts rather than debate which tool to use, I have a personal preference building Cloud System with products from the Google Cloud Platform​​. Especially those : BigQuery, Cloud Storage, Cloud Runner, GKE, Cloud Run, Dataform, and DataFlow.
 
 I'm currently actively working on the GCP Professional DE Certification this year too.
 That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/EKS.
@@ -53,7 +53,7 @@ Although there are too many interesting concepts and tools out there, I'm curren
 
 I'm currently working on [this Cloud Data Engineering project](https://github.com/Summers-Team/school-m2-bi-project).
 
-- It's a complete ELT pipeline architecture template that can be reused by anyone. The goal is to pre-build a fully working data storage and processing system that cover everything from infrastructure to orchestration and configuration, so that it can be ready to use in less than 20 minutes. Perfect for startup or small company that want to start getting insight from their raw data without spending to much time and energy.
+- It's a complete ELT pipeline architecture template that can be reused by anyone. The goal is to pre-build a fully working data storage and processing system that cover everything from infrastructure to orchestration and configuration, so that it can be ready to use in less than 20 minutes. Perfect for startup or small company that want to start getting insight from their raw data without spending to much time and energy on infrastructure and pipeline creation.
 - Stack : GCP (Cloud Storage Bucket, BigQuery, Cloud Run), Prefect Cloud, dbt, Power BI (other choices is possible)
 
 Apart from this one, I’ve got a bunch of interesting public pinned projects.
