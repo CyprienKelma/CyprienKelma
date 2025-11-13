@@ -20,7 +20,7 @@ As well as ensuring that solutions are optimized and robust in the long term.
 ---
 
 ### ⭐​ Tech Skills :
-While I advocate for using the right tech for the right task (_rather than choosing with the shiny object syndrome_ 👀​), I mostly leverage the following technologies:
+While I advocate for using the right tech for the right task (_rather than choosing with the tempting shiny object syndrome_ 👀​), I mostly leverage the following technologies:
 
 #### Core DE Tools :
 - The good timeless classics : SQL and Python (with dbt, PySpark and Pandas)
