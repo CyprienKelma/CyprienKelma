@@ -3,10 +3,10 @@
 </div>
 
 
-## Hey there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/>
+# Hey there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="30"/>
 
 
-#### I’m [**Cyprien Kelma**](https://www.linkedin.com/in/cyprien-kelma/), a Cloud Data Engineer based in Lille, France.
+### I’m [**Cyprien Kelma**](https://www.linkedin.com/in/cyprien-kelma/), a Cloud Data Engineer based in Lille, France.
 
 ### ✨​ Short Summary :
 
@@ -26,9 +26,10 @@ While I advocate for using the right tech for the right task (_rather than choos
 - The good timeless classics : SQL and Python (with dbt, PySpark and Pandas)
 - Spark for distributed computing
 - Airflow and Prefect for batch pipeline orchestration
-- Relationnal Databases (PostgreSQL, SQLite) and NoSQL (MongoDB, Cassandra, Redis) 
+- Relationnal Databases (PostgreSQL, SQLite) and NoSQL (MongoDB, Cassandra, Redis)
+- Java (and Spring Boot for Backend)
 - Delta Lake and Databricks, on which I'm currently working to pass the Data Engineer Professional Certification this year
-- CI/CD with GitHub Action, especially to manage artifact publication and project deployment on dev/preprod/prod environments 
+- DevOps/DataOps Concepts and CI/CD with GitHub Action, especially to manage artifact publication and project deployment on dev/preprod/prod environments 
 - Docker and Kubernetes (on premise or with Cloud services)
 
 #### Cloud Computing :
@@ -37,6 +38,13 @@ I love Cloud Computing. And even if I believe more in deep understanding of conc
 
 I'm currently actively working on the GCP Professional DE Certification this year too.
 That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/EKS.
+
+#### Areas for improvement :
+
+Although there are too many interesting concepts and tools out there, I'm currently focusing my learning on three things in the short/medium term:
+1. Keep and improve the fundamentals. There are always the essentials that aren't very fashionable but are more indispensable than ever.
+2. Improve my understanding and ability with Cloud Computing product, especially on GCP.
+3. Improve myself in Micro Batch and Streaming concept and tools, like Kafka, Pub/Sub and Flink. 
 
 ---
 
@@ -53,7 +61,7 @@ For exemple, you can check this [scalable, distributed, data system architeture]
 
 ### 👋​ Let's Connect!
 
-I am always open to discussing any questions or freelance work opportunities :)
+I am always open to discussing any questions or freelance work opportunities to do in addition to my main job :)
 
 You can text me on Linkedin : [**Cyprien Kelma**](https://www.linkedin.com/in/cyprien-kelma/)
 
