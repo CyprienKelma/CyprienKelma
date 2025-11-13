@@ -34,7 +34,7 @@ While I advocate for using the right tech for the right task (_rather than choos
 
 #### Cloud Computing :
 
-I love Cloud Computing. And even if I believe more in deep understanding of concepts rather than simple tool use, I love building Cloud System with products from the Google Cloud Platform 🙂​​. Especially those : BigQuery, Cloud Storage, Cloud Runner, GKE, Cloud Run, Dataform, and DataFlow.
+I love working with Cloud solution 🙂. And even if I believe more in deep understanding of concepts rather than simple tool use, I have a personal preference building Cloud System with products from the Google Cloud Platform​​. Especially those : BigQuery, Cloud Storage, Cloud Runner, GKE, Cloud Run, Dataform, and DataFlow.
 
 I'm currently actively working on the GCP Professional DE Certification this year too.
 That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/EKS.
