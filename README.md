@@ -12,7 +12,7 @@
 
 I love designing, implementing, and maintaining data processing systems that transform corporate data into actionable and profitable return on investment.
 
-After a successful four-month Data Engineering internship at Decathlon Brussels, I landed a one-year work-study (apprenticeship) program at Decathlon in France. Here I'm furthering my technical skills while completing my last year of software engineering degree at ISEN Lille.
+After a successful four-month Data Engineering internship at Decathlon in Brussels, I landed a one-year work-study (apprenticeship) program at Decathlon in France. Here I'm furthering my technical skills while completing my last year of software engineering degree at ISEN Lille.
 
 Rather than rushing headlong into things, my approach is to always prioritize system designs that best meet requirements and good practice.
 As well as ensuring that solutions are optimized and robust in the long term.
