@@ -40,13 +40,6 @@ I love working with Cloud solution 🙂. And even if I believe more in deep unde
 I'm currently actively working on the GCP Professional DE Certification this year too.
 That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/EKS.
 
-#### Areas for improvement :
-
-Although there are too many interesting concepts and tools out there, I'm currently focusing my learning on three things in the short/medium term:
-1. Keep and improve the fundamentals. There are always the essentials that aren't very fashionable but are more indispensable than ever.
-2. Improve my understanding and ability with Cloud Computing product, especially on GCP.
-3. Improve myself in Micro Batch and Streaming concept and tools, like Kafka, Pub/Sub and Flink. 
-
 ---
 
 ### 🛠️​ Current side project :
