@@ -35,7 +35,7 @@ While I advocate for using the right tech for the right task (_rather than choos
 
 #### Cloud Computing :
 
-I love working with Cloud solution 🙂. And even if I believe more in deep understanding of concepts rather than debate which tool to use, I have a personal preference building Cloud System with products from the Google Cloud Platform​​. Especially those : BigQuery, Cloud Storage, Cloud Runner, GKE, Cloud Run, Dataform, and DataFlow.
+I love working with Cloud solution. And even if I believe more in deep understanding of concepts rather than debate which tool to use, I have a personal preference building Cloud System with products from the Google Cloud Platform​​. Especially those : BigQuery, Cloud Storage, Cloud Runner, GKE, Cloud Run, Dataform, and DataFlow.
 
 I'm currently actively working on the GCP Professional DE Certification this year too.
 That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/EKS.
@@ -46,7 +46,8 @@ That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/
 
 ### 🚑 Drone Fleet Optimizer
 
-It's a complete real-time cloud management infrastructure for emergency medical delivery drone fleets.
+- It's a complete real-time cloud management infrastructure for emergency medical delivery drone fleets.
+- The goal of this project is to be able to host an Operational Research system that solve NP-Hard problem (VRPPD) with tight time constraints.
 
 [**See the online documention !**](https://cyprienkelma.github.io/dronefleet-optimizer/en/)
 
