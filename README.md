@@ -48,7 +48,7 @@ That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/
 
 It's a complete real-time cloud management infrastructure for emergency medical delivery drone fleets.
 
-[**See the documention !**](https://cyprienkelma.github.io/dronefleet-optimizer/en/)
+[**See the online documention !**](https://cyprienkelma.github.io/dronefleet-optimizer/en/)
 
 This project allowed me to deepen my mastery of concepts such as concurrency management, containerization, event-driven architectures, monorepo organization, CI/CD, isolation of environments and cloud deployment on GCP. As well as using Python (Pydantic, FastAPI), Java (with Spring Boot), protobuf and buf library to manage single source of truth by creating Data Contract, and also designing complete CI/CD deployment with GitHub Action.
 
