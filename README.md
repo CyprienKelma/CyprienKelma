@@ -42,9 +42,20 @@ That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/
 
 ---
 
-### 🛠️​ Current side project :
+## My Biggest Fortfolio Project :
 
-I'm currently working on [this Cloud Data Engineering project](https://github.com/Summers-Team/school-m2-bi-project).
+### 🚑 Drone Fleet Optimizer
+
+It's a complete real-time cloud management infrastructure for emergency medical delivery drone fleets.
+
+[**See the documention !**](https://cyprienkelma.github.io/dronefleet-optimizer/en/)
+
+This project allowed me to deepen my mastery of concepts such as concurrency management, containerization, event-driven architectures, monorepo organization, CI/CD, isolation of environments and cloud deployment on GCP. As well as using Python (Pydantic, FastAPI), Java (with Spring Boot), protobuf and buf library to manage single source of truth by creating Data Contract, and also designing complete CI/CD deployment with GitHub Action.
+
+---
+### 🛠️​ Other side project :
+
+I've also worked on [this Cloud Data Engineering project](https://github.com/Summers-Team/school-m2-bi-project).
 
 - It's a complete ELT pipeline architecture template that can be reused by anyone. The goal is to pre-build a fully working data storage and processing system that cover everything from infrastructure to orchestration and configuration, so that it can be ready to use in less than 20 minutes.
 - Perfect for startup or small company that want to start getting insight from their raw data without spending to much time and energy on infrastructure and pipeline creation.
