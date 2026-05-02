@@ -42,7 +42,7 @@ A production-ready ELT pipeline template deployable on any GCP account in under 
 
 ### 3. Distributed Data Architecture — Scalable Backend System
 
-A distributed, multi-modal storage architecture built to handle TB-scale data volumes, developed as a fourth-year engineering project.
+A distributed, multi-modal storage architecture built to handle TB-scale data volumes, developed as a fourth-year engineering project, graded 19/20.
 
 - Designed horizontal scaling with Kubernetes (K3s) and Helm across PostgreSQL (relational), Cassandra (high-write NoSQL), Neo4j (graph), and Redis/KeyDB (cache)
 - Built a daily ELT pipeline orchestrated by Airflow on Kubernetes: Bronze (raw extraction) → Silver (Parquet, cleaning) → Gold (DuckDB analytical warehouse)
