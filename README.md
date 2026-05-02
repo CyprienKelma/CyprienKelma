@@ -56,15 +56,20 @@ A distributed, multi-modal storage architecture built to handle TB-scale data vo
 
 ## Experience
 
-**Data Engineer, Apprenticeship** — Decathlon Digital, Lille (Sep 2025 – Present)
+**Data Engineer, Apprenticeship** — Decathlon Digital, Lille (Sep 2025 – End of Aug 2026)
+
 - Built a self-service analytics platform backed by Databricks, Cloud Run and BigQuery, enabling data analysts to ship production-grade data apps, reducing delivery time from days to hours through AI-assisted development workflows
+
 - Drove self-service data adoption by building core dbt models and mentoring analysts on software engineering best practices (Git workflows, CI/CD, automated testing), while industrializing an ML forecasting pipeline with MLFlow and Airflow orchestration serving 10+ sports business analysts and financial team members
+
 - Optimized production pipelines performances by implementing Auto-Compact, Partitioning, Idempotency, Vacuum and incremental logic on Delta tables format, reducing execution time by 40% and improving downstream read efficiency
 
 **Data Engineer, Internship** — Decathlon Belgium, Brussels (May 2025 – Aug 2025)
-- Built a production ETL pipeline on Databricks ingesting logistics data from a REST API into BigQuery. 
+
 - Built and deployed a production-grade ETL pipeline on Databricks processing high-volume logistics data from a REST API into BigQuery, ensuring data integrity with Great Expectations and Pydantic across thousands of daily deliveries.
+
 - Led a reporting pipeline on AWS using Airflow (MWAA) to orchestrate Docker containers on Kubernetes (EKS), automatically generating 100+ slide weekly BI reports and eliminating hours of manual work.
+
 - Maintained and improved PySpark transformation codebase across 5+ Databricks jobs, developed and refactored dbt models, resolved critical Airflow DAG bugs, and contributed a fix to an open-source library within a CI/CD workflow
 
 ---
