@@ -6,9 +6,9 @@ Available for a permanent contract from September 2026.
 
 ---
 
-## Projects
+## Main Projects
 
-### DroneFleet Optimizer — Real-Time Fleet Management Infrastructure
+### 1. DroneFleet Optimizer — Real-Time Fleet Management Infrastructure
 
 [Full Website Documentation](https://cyprienkelma.github.io/dronefleet-optimizer/en/) 
 
@@ -25,7 +25,7 @@ A complete event-driven system for coordinating emergency medical delivery drone
 
 ---
 
-### Cloud ELT Platform — Reusable Data Infrastructure Template
+### 2. Cloud ELT Platform — Reusable Data Infrastructure Template
 
 A production-ready ELT pipeline template deployable on any GCP account in under 20 minutes. Built as part of a Cloud Computing course (M2), graded 18/20.
 
@@ -40,7 +40,7 @@ A production-ready ELT pipeline template deployable on any GCP account in under 
 
 ---
 
-### Distributed Data Architecture — Scalable Backend System
+### 3. Distributed Data Architecture — Scalable Backend System
 
 A distributed, multi-modal storage architecture built to handle TB-scale data volumes, developed as a fourth-year engineering project.
 
