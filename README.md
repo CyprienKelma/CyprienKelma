@@ -1,92 +1,92 @@
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&height=150&color=gradient&text=Cyprien%20Kelma&section=header&reversal=false&textBg=false&desc=Cloud%20Data%20Engineer&fontAlignY=44&descAlignY=76&descSize=22" />
-</div>
+# Cyprien Kelma — Data Engineer
 
-
-# Hey there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="30"/>
-
-
-### I’m [**Cyprien Kelma**](https://www.linkedin.com/in/cyprien-kelma/), a Cloud Data Engineer based in Lille, France.
-
-### ✨​ Short Summary :
-
-I love designing, implementing, and maintaining data processing systems that transform corporate data into actionable and profitable return on investment.
-
-After a successful four-month Data Engineering internship at Decathlon in Brussels, I landed a one-year work-study (apprenticeship) program at Decathlon in France. Here I'm furthering my technical skills while completing my last year of software engineering degree at ISEN Lille.
-
-Rather than rushing headlong into things, my approach is to always prioritize system designs that best meet requirements and good practice.
-As well as ensuring that solutions are optimized and robust in the long term.
+Final-year software engineering student at ISEN Lille, currently in a Data Engineer apprenticeship at Decathlon Digital.
+Building production-grade data platforms on GCP, AWS and Databricks.
+Available for a permanent contract from September 2026.
 
 ---
 
-### ⭐​ Tech Skills :
-While I advocate for using the right tech for the right task (_rather than choosing with the tempting shiny object syndrome_ 👀​), I mostly leverage the following technologies:
+## Projects
 
-#### Core DE Tools :
-- The good timeless classics : SQL and Python (with dbt, PySpark and Pandas)
-- Spark for distributed computing
-- Airflow and Prefect for batch pipeline orchestration
-- Relationnal Databases (PostgreSQL, SQLite) and NoSQL (MongoDB, Cassandra, Redis)
-- Java (and Spring Boot for Backend)
-- Databricks and Delta Lake, on which I'm currently working to pass the Data Engineer Professional Certification this year
-- DevOps/DataOps Concepts and CI/CD with GitHub Action, especially to manage artifact publication and project deployment on dev/preprod/prod environments 
-- Docker and Kubernetes (on premise or with Cloud services)
-- IaC and Backend State with Terraform
+### DroneFleet Optimizer — Real-Time Fleet Management Infrastructure
 
-#### Cloud Computing :
+[Full Website Documentation](https://cyprienkelma.github.io/dronefleet-optimizer/en/) 
 
-I love working with Cloud solution. And even if I believe more in deep understanding of concepts rather than debate which tool to use, I have a personal preference building Cloud System with products from the Google Cloud Platform​​. Especially those : BigQuery, Cloud Storage, Cloud Runner, GKE, Cloud Run, Dataform, and DataFlow.
+A complete event-driven system for coordinating emergency medical delivery drone fleets in real time.
 
-I'm currently actively working on the GCP Professional DE Certification this year too.
-That said, I'm far from disliking AWS, especially MWAA, S3, EC2, Lambda and ECR/EKS.
+- Architected a polyglot microservices system (Python FastAPI, Java Spring Boot) with Pub/Sub messaging, achieving sub-500ms latency for critical delivery operations
+- Designed and solved a Vehicle Routing Problem with Pickup and Delivery (VRPPD) using Google OR-Tools, with an optimistic concurrency model to handle concurrent optimization cycles safely
+- Deployed fully on GCP using Terraform (Cloud Run, Firestore, Artifact Registry), with a local dev environment via Docker Compose and emulators — zero cloud cost during development
+- Built an ELT analytics pipeline (dbt, BigQuery) to process drone telemetry and expose a real-time monitoring dashboard with Streamlit
+
+**Stack:** Python, Java, GCP, Terraform, Pub/Sub, Firestore, dbt, BigQuery, Docker, GitHub Actions
+
+[Repository](https://github.com/CyprienKelma/dronefleet-optimizer)
 
 ---
 
-## My Biggest Fortfolio Project :
+### Cloud ELT Platform — Reusable Data Infrastructure Template
 
-### 🚑 Drone Fleet Optimizer
+A production-ready ELT pipeline template deployable on any GCP account in under 20 minutes. Built as part of a Cloud Computing course (M2), graded 18/20.
 
-- It's a complete real-time cloud management infrastructure for emergency medical delivery drone fleets.
-- The goal of this project is to be able to host an Operational Research system that solve NP-Hard problem (VRPPD) with tight time constraints.
+- Provisioned the full infrastructure with Terraform (IaC): GCS buckets for dev and prod, BigQuery datasets with lifecycle policies, IAM service accounts following least-privilege principles
+- Orchestrated daily ingestion and transformation workflows with Prefect Cloud, with retry logic and support for both local and cloud execution modes
+- Modelled data in BigQuery using dbt with a full medallion architecture (staging, intermediate, marts) and a star schema exposed to Power BI
+- Set up CI/CD with GitHub Actions to automatically regenerate and publish the dbt documentation site on every production merge
 
-[**See the online documention !**](https://cyprienkelma.github.io/dronefleet-optimizer/en/)
+**Stack:** GCP (GCS, BigQuery, Cloud Run), Terraform, Prefect Cloud, dbt, Python, GitHub Actions, Power BI
 
-This project allowed me to deepen my mastery of concepts such as concurrency management, containerization, event-driven architectures, monorepo organization, CI/CD, isolation of environments and cloud deployment on GCP. As well as using Python (Pydantic, FastAPI), Java (with Spring Boot), protobuf and buf library to manage single source of truth by creating Data Contract, and also designing complete CI/CD deployment with GitHub Action.
-
----
-### 🛠️​ Other side project :
-
-I've also worked on [this Cloud Data Engineering project](https://github.com/Summers-Team/school-m2-bi-project).
-
-- It's a complete ELT pipeline architecture template that can be reused by anyone. The goal is to pre-build a fully working data storage and processing system that cover everything from infrastructure to orchestration and configuration, so that it can be ready to use in less than 20 minutes.
-- Perfect for startup or small company that want to start getting insight from their raw data without spending to much time and energy on infrastructure and pipeline creation.
-- Stack : GCP (Cloud Storage Bucket, BigQuery, Cloud Run), Prefect Cloud, dbt, Power BI (other choices is possible)
-
-Apart from this one, I’ve got a bunch of interesting public pinned projects.
-For exemple, you can check this [scalable, distributed, data system architeture](https://github.com/CyprienKelma/Projet-M1).
+[Repository](https://github.com/Summers-Team/school-m2-bi-project)
 
 ---
 
-### 👋​ Let's Connect!
+### Distributed Data Architecture — Scalable Backend System
 
-I am always open to discussing any questions or freelance work opportunities to do in addition to my main job :)
+A distributed, multi-modal storage architecture built to handle TB-scale data volumes, developed as a fourth-year engineering project.
 
-You can text me on Linkedin : [**Cyprien Kelma**](https://www.linkedin.com/in/cyprien-kelma/)
+- Designed horizontal scaling with Kubernetes (K3s) and Helm across PostgreSQL (relational), Cassandra (high-write NoSQL), Neo4j (graph), and Redis/KeyDB (cache)
+- Built a daily ELT pipeline orchestrated by Airflow on Kubernetes: Bronze (raw extraction) → Silver (Parquet, cleaning) → Gold (DuckDB analytical warehouse)
+- Developed the backend API in NestJS with multi-storage integrations and MinIO as an S3-compatible data lake
 
+**Stack:** Kubernetes, Spark, Airflow, PostgreSQL, Cassandra, Neo4j, Redis, MinIO, DuckDB, NestJS
 
+[Repository](https://github.com/CyprienKelma/Projet-M1) - [Concept Paper (French)](https://drive.google.com/file/d/1x0aIjapqhaVRPJEvIRTzORIR9aschmZv/view?usp=sharing)
 
+---
 
-<!--
-**CyprienKelma/CyprienKelma** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Experience
 
-Here are some ideas to get you started:
+**Data Engineer, Apprenticeship** — Decathlon Digital, Lille (Sep 2025 – Present)
+- Built a self-service analytics platform backed by Databricks, Cloud Run and BigQuery, enabling data analysts to ship production-grade data apps, reducing delivery time from days to hours through AI-assisted development workflows
+- Drove self-service data adoption by building core dbt models and mentoring analysts on software engineering best practices (Git workflows, CI/CD, automated testing), while industrializing an ML forecasting pipeline with MLFlow and Airflow orchestration serving 10+ sports business analysts and financial team members
+- Optimized production pipelines performances by implementing Auto-Compact, Partitioning, Idempotency, Vacuum and incremental logic on Delta tables format, reducing execution time by 40% and improving downstream read efficiency
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Data Engineer, Internship** — Decathlon Belgium, Brussels (May 2025 – Aug 2025)
+- Built a production ETL pipeline on Databricks ingesting logistics data from a REST API into BigQuery. 
+- Built and deployed a production-grade ETL pipeline on Databricks processing high-volume logistics data from a REST API into BigQuery, ensuring data integrity with Great Expectations and Pydantic across thousands of daily deliveries.
+- Led a reporting pipeline on AWS using Airflow (MWAA) to orchestrate Docker containers on Kubernetes (EKS), automatically generating 100+ slide weekly BI reports and eliminating hours of manual work.
+- Maintained and improved PySpark transformation codebase across 5+ Databricks jobs, developed and refactored dbt models, resolved critical Airflow DAG bugs, and contributed a fix to an open-source library within a CI/CD workflow
+
+---
+
+## Stack
+
+- **Data Engineering:** PySpark, Databricks, Delta Lake, dbt, Airflow, Prefect, ETL/ELT, Great Expectations, Pydantic
+- **Warehouses & Storage:** BigQuery, PostgreSQL, Snowflake, Cassandra, Redis, MongoDB
+- **Cloud:** GCP (BigQuery, Cloud Run, Pub/Sub, GCS, Firestore), AWS (S3, EKS, MWAA, ECR)
+- **Infrastructure:** Terraform, Docker, Kubernetes, GitHub Actions
+- **Languages:** Python, SQL, Java (Spring Boot)
+
+---
+
+## Education
+
+**Master of Computer Science** — ISEN Lille, French Engineering School (2021 – 2026)
+
+> Data Structures & Algorithms, Java, Distributed Systems, Machine Learning, Deep Learning, DevOps, Cloud Computing, Database Management (SQL & NoSQL), Operations Research, Metaheuristics, Spark.
+
+---
+
+## Contact :
+- LinkedIn : [cyprien-kelma](https://www.linkedin.com/in/cyprien-kelma/)
+- Email : cyprien.kelma@gmail.com
